@@ -1,7 +1,6 @@
-import { useState } from 'react'
-
 import './app.css'
-import { chakraprovider, Box } from '@chakra-ui/react'
+import { ChakraProvider, Box } from '@chakra-ui/react'
+
 function App() {
 
   return (
