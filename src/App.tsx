@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { ChakraProvider, Box } from '@chakra-ui/react'
+
+import './app.css'
+import { chakraprovider, Box } from '@chakra-ui/react'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <ChakraProvider>
-      <Box></Box>
-  </ChakraProvider>)
+      <Box h={200} w={233} bg="red"></Box>
+    </ChakraProvider>)
 }
 
 export default App
